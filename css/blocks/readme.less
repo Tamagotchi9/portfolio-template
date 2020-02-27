@@ -1,0 +1,49 @@
+// main: ../style.less
+
+.readme {
+  margin-top: 14rem;
+  margin-bottom: 8rem;
+
+  @media @tablet {
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.readme__header {
+  margin-bottom: 3.6rem;
+
+  text-align: center;
+}
+
+.readme__title {
+  margin-bottom: .3rem;
+
+  font-size: 3rem;
+  color: @black;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  @media @mobile {
+    font-size: 2rem;
+  }
+}
+
+.readme__subtitle {
+  font-size: 1.2rem;
+  color: @gray-light;
+  font-weight: 300;
+}
+
+.readme__footer {
+  text-align: right;
+}
+
+.readme__link {
+  font-size: 0.94rem;
+  color: @gray-light;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
